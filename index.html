@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title>KEMIS Web App</title>
+        <link rel="shortcut icon" href="assets/kemis.png" />
+        <link href="style.css" rel="stylesheet" />
+    </head>
+    <body>
+        <header>
+            <div> <img src="assets/kemi-s.jpg" /></div>
+            <div>
+                <button onclick="redir()">LOG IN</button>
+            </div>
+        </header>
+    <center><br>
+       <img style="width: 70px;" src="assets/rep.png" />
+       </center>
+        <br>
+        <hr style="border:1px solid black">
+        <hr style="border:1px solid red">
+        <hr style="border:1px solid green">
+        <center>
+        <marquee>Welcome to Kemis Web portal. You can check results directly frrom here!</marquee>
+        <br>
+        <br>
+        <div class="result">
+            <text><strong>Find/check my student's results here:</strong></text>
+            <br><br>
+            <input type="text" class="text" id="names" placeholder="Enter any two names here..."/><br>
+            <input type="text" class="text" id="school" placeholder="Enter the school name here..."/><br>
+            <input type="text" class="text" id="index" placeholder="Enter the index number here..."/><br>
+            <br><button onclick="fetch()">CHECK RESULTS</button><br>
+            <img src="assets/council.png" />
+        </div>
+	<div class=container id="result" style="display: none;"><h3><img src="assets/kasongo.png"></img> Kasongo o3mini BETA  offline</h3><text style="text-align: left;" id="txt"></text><button onclick="redir()" >Verify Results</button></div>	
+    <br><br><footer>
+            <h3>kemis.education.go.ke</h3>
+        <hr style="border:1px solid white">
+        <strong>Contact Us:</strong><br><br>
+        <text> info@kemis.education.go.ke</text><br><br>
+        <text style="color:aqua;"><strong>Our Links:</strong></text><br><br>
+        <button onclick="redir()">Ecitizen</button>
+        <button onclick="redir()">Kemis Web App</button><br><br>
+        <img src="assets/rep.png" />
+        <p><c style="color: aqua;">Copyright</c> @ Ministry of Education. Republic Of Kenya.</p>
+        <p>Our goal is to ensure quality education and assesment to all our learnes in our country.</p>
+        </footer>
+        </center>
+        <script src="script.js"></script>
+    </body>
+</html>
