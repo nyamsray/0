@@ -5,7 +5,7 @@ body {
 header {
     font-size: x-large;
     color: white;
-    background-color: cyan;
+    background-color: blue;
     padding: 10px;
     display: flex;
     justify-content: space-between;
@@ -29,22 +29,22 @@ img {
 margin: 5px;
 padding: 10px;
 border-radius: 10px;
-border: 1px solid cyan;
+border: 1px solid blue;
 }
 marquee {
-    background-color:cyan;
+    background-color:blue;
     color: white;
     padding: 5px;
 }
 button {
     color: white;
-    background-color: cyan;
+    background-color: blue;
     padding: 10px;
     border-color: white;
     border-radius: 10px;
 }
 button:hover {
-    color: cyan;
+    color: blue;
     background-color: white;
     border-color: cyan;
 }
@@ -63,7 +63,7 @@ footer {
             padding:5px;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
             overflow: hidden;
-            margin:2em;
+            margin:1em;
             display: flex;
             flex-direction: column;
             position: fixed;
@@ -77,3 +77,4 @@ footer {
     width: 30px;
 
 }
+
